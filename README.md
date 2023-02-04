@@ -1,24 +1,8 @@
-# README
+# RAWG USAGE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# How to use
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Call in endpoints and pass http methods using Client.rb
+* Request.rb will accept passed endpoints and methods from Client in order to execute API calls
+* Access points for API are in routes.rb
+* Must be in JSON  
