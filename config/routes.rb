@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
       get '/developers', to: 'developers#index'
 
-      get '/genre', to: 'genre#index'
+      get '/genres', to: 'genres#index'
 
-      get '/genre/:id', to: 'genre#show'
+      get '/genres/:id', to: 'genres#show'
   end
 
   # Defines the root path route ("/")

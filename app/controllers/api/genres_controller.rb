@@ -1,11 +1,11 @@
-class Api::GenreController < ApplicationController
+class Api::GenresController < ApplicationController
     def index
         genres = Rawg::Client.genres
         render json: genres
     end
 
     def show
-        genere = Rawg::Client.genre
+        genre = Rawg::Client.genre(params[:id])
         render json: genre
     end
 end
