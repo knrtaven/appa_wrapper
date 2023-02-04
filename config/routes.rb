@@ -4,6 +4,10 @@ Rails.application.routes.draw do
       get '/creator-roles', to: 'creator_roles#index'
 
       get '/developers', to: 'developers#index'
+
+      get '/genre', to: 'genre#index'
+
+      get '/genre/:id', to: 'genre#show'
   end
 
   # Defines the root path route ("/")

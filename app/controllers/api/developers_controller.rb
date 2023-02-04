@@ -1,5 +1,5 @@
 module Api
-    class DeveloperController < ApplicationController
+    class DevelopersController < ApplicationController
         
         def index
             developers = Rawg::Client.developers
